@@ -1,0 +1,126 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color: beige;
+    padding:20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header h1 {
+    margin-left: 20px;
+    font-family: "league spartan";
+}
+
+.main-list {
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+.main-list li {
+    margin-right: 40px;
+}
+
+.main-list a {
+    text-decoration:none;
+    text-transform: uppercase;
+    color: black;
+    font-family: "league spartan";
+}
+
+.main {
+    background-image: url("file:///C:/Users/gabik/Downloads/Design%20sem%20nome%20(6).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+    position: relative;
+}
+
+.main h1 {
+    font-family: "league spartan";
+    font-size: 80px;
+    text-align: left;
+    margin-right: 20px;
+    padding-left:40px;
+    padding-top:60px;
+    padding-right:950px;
+
+}
+
+.main p {
+    text-align: left;
+    margin-right: 20px;
+    padding-left:40px;
+    padding-right: 1050px;
+    padding-top:15px;
+    font-family: "league spartan";
+    font-size: 30px;
+
+
+}
+
+.content {
+    margin:0;
+    padding:0;
+    background-color:beige;
+
+}
+
+.content h2 {
+    font-family: "league spartan";
+    font-size: 30px;
+    padding-top:40px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    overflow-x: auto;
+    padding-top: 40px;
+}
+
+.img-content {
+    white-space: nowrap;
+}
+
+.img-content img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+    width: 300px;
+    height:auto;
+    border: 2px solid #000;
+}
+
+.img-content p {
+    text-align: center;
+    font-family: "league spartan";
+    font-size:20px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.img-content a {
+    text-decoration: none;
+    color: black;
+    background-color:#d9ba98;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid #000
+}
+
+.img-content a:active {
+    transform: translateY(2px);
+    box-shadow: 5px 20px 20px rgba(0, 0, 0, 0.2);
+  }
+
