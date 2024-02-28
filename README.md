@@ -17,3 +17,7 @@ This is a Landing Page to sell and talk about products
 ### Installing
 
 * This program do not require installation. You should just run the .exe file.
+
+### Notes
+
+* Please be advised that this project is currently optimized for large screens only. It is not adapted for other devices at the moment, as I am actively working on improvements to enhance the user experience across different platforms.
